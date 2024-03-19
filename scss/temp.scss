@@ -1,0 +1,36 @@
+.wrapper {
+  .container {
+    display: flex;
+
+    .left-box {
+      height: px;
+      width: 50%;
+      //   background-color: firebrick;
+      position: relative;
+      top: 38px;
+      @include add-background-image(
+        "../images/spacejoy-LhOJl195TWc-unsplash.jpg"
+      );
+    }
+
+    aside {
+      height: 1020px;
+      width: 50%;
+      background-color: #fff;
+      padding-top: 41px;
+      padding: 41px 71px 0 71px;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-family: arialbd;
+        font-size: 32px;
+      }
+
+      p {
+        font-family: arial;
+        font-size: 16px;
+      }
+    }
+  }
+}

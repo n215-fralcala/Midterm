@@ -1,0 +1,23 @@
+nav {
+  height: 60px;
+  background-color: $site-brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: lato;
+  padding: 0 30px;
+
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 31px;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 160px;
+  }
+}

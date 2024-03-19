@@ -1,0 +1,21 @@
+// fonts
+@font-face {
+  font-family: arial;
+  src: url(../fonts/arial.ttf);
+}
+
+@font-face {
+  font-family: arialbd;
+  src: url(../fonts/arialbd.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@import "mixins.scss";
+@import "structure.scss";
+@import "variables";
+@import "nav.scss";
+@import "home.scss";
+@import "temp.scss";
